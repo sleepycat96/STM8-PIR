@@ -1,4 +1,4 @@
-(footprint "BS312"
+(footprint "BS412"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "BS312"
+	(property "Value" "BS412"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "BS312"
+	(property "Footprint" "BS412"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -161,6 +161,14 @@
 		)
 	)
 	(pad "1" thru_hole circle
+		(at 0 -2.54)
+		(size 1.5 1.5)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b188072-6977-4d04-8103-027bee142f33")
+	)
+	(pad "2" thru_hole circle
 		(at -2.54 0)
 		(size 1.5 1.5)
 		(drill 0.6)
@@ -168,7 +176,7 @@
 		(remove_unused_layers no)
 		(uuid "c9bfb3ae-4f81-449a-89f2-1871cee85f97")
 	)
-	(pad "2" thru_hole circle
+	(pad "3" thru_hole circle
 		(at 0 2.54)
 		(size 1.5 1.5)
 		(drill 0.6)
@@ -176,7 +184,7 @@
 		(remove_unused_layers no)
 		(uuid "b0299493-64e0-487b-999b-b16daf12876c")
 	)
-	(pad "3" thru_hole circle
+	(pad "4" thru_hole circle
 		(at 2.54 0)
 		(size 1.5 1.5)
 		(drill 0.6)

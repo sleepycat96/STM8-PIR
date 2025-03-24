@@ -4827,6 +4827,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 177.8 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b1a5e6-b65c-49cd-b932-31261f46968c")
+		(property "Reference" "C4"
+			(at 181.61 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 181.61 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 178.7652 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b56670a7-1bf0-4b4a-98a1-0e8ee33208d9")
+		)
+		(pin "2"
+			(uuid "82664625-134e-4521-8c0e-290e30a7fbd5")
+		)
+		(instances
+			(project "PIR_USB"
+				(path "/f690a98d-e7bf-4eb2-81f5-fded94f482e4"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM8:STM8S003F3P")
 		(at 214.63 72.39 0)
 		(unit 1)
@@ -8187,7 +8257,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 44.45 0)
+		(at 177.8 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8196,7 +8266,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4467f4a-7e5a-4163-a945-8ebbecc5042d")
 		(property "Reference" "#PWR022"
-			(at 176.53 50.8 0)
+			(at 177.8 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8275,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 49.53 0)
+			(at 177.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +8283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 44.45 0)
+			(at 177.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +8292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 44.45 0)
+			(at 177.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8231,7 +8301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 44.45 0)
+			(at 177.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,7 +8392,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 176.53 36.83 0)
+		(at 177.8 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,7 +8401,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd3c6941-a361-4f37-b960-2d80b8094b45")
 		(property "Reference" "#PWR021"
-			(at 176.53 40.64 0)
+			(at 177.8 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8410,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 176.53 31.75 0)
+			(at 177.8 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 36.83 0)
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 36.83 0)
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 176.53 36.83 0)
+			(at 177.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,76 +9001,6 @@
 			(project "PIR_USB"
 				(path "/f690a98d-e7bf-4eb2-81f5-fded94f482e4"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 176.53 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "decc6c91-a498-4d93-8f95-bfc28c110661")
-		(property "Reference" "C4"
-			(at 180.34 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 180.34 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
-			(at 177.4952 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a96e229a-c1ee-4a31-a1ac-ae35c603e23c")
-		)
-		(pin "2"
-			(uuid "74b48fb0-b7b0-4918-a37a-90f8dc89cd45")
-		)
-		(instances
-			(project "PIR_USB"
-				(path "/f690a98d-e7bf-4eb2-81f5-fded94f482e4"
-					(reference "C4")
 					(unit 1)
 				)
 			)
